@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    background-image: url(imgs/background.png);
+}
+
+footer, header {
+    background-color: #444;
+    color: white;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+header h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffaa00;
+}
+
+
+.cardholder {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-family: "Stack Sans Headline", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #666;
+    color: white;
+    border: #88888888 solid 5px;
+    border-radius: 15px;
+    max-width: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardimg img {
+    width: 15rem;
+    border: 3px solid #ffffff55;
+    border-radius: 30px;
+}
+
+.carddesc {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 300px;
+}
+
+.carddesc a {
+    text-decoration: none;
+    color: white;
+}
+
+.carddesc a:hover {
+    text-decoration: underline;
+}
+
+.carddesc li {
+    list-style: upper-roman;
+}
+
+.navigation {
+    padding: 3px;
+    margin: 3px;
+    justify-content: center;
+    gap: 12rem;
+    display: flex;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer p {
+    padding-left: 10px;
+}
