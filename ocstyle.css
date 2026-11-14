@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(#000, #003355, #005566);
+    font-family: "Stack Sans Headline", sans-serif;
+}
+
+header, footer {
+    color: white;
+    font-style: italic;
+    background-color: #666;
+    padding: 5px;
+    border-radius: 15rem;
+    text-align: center;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+    font-style: normal;
+    padding: 5px;
+    border-radius: 15rem;
+}
+
+header a:hover {
+    background-color: gold;
+    font-weight: bolder;
+}
+
+.cardholder {
+    display: flex;
+    margin: 10px;
+    padding: 3rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card {
+    background-color: #666;
+    padding: 30px;
+    border: #cccccc66 solid;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    flex-direction: row;
+}
+
+.characterimg img {
+    width: 50%;
+    border: #ffcc00c5 solid;
+    border-radius: 20px;
+}
+
+.characterdesc {
+    color: white;
+}
+
+.characterdesc h2 {
+    text-shadow: 2px 2px 2px #222;
+}
+
+.characterdesc li {
+    list-style: circle;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+footer li {
+    list-style: none;
+}
+
