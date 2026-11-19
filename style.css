@@ -38,7 +38,7 @@ header h3 {
     color: white;
     border: #88888888 solid 5px;
     border-radius: 15px;
-    max-width: 700px;
+    max-width: fit-content;
     padding: 10px;
     display: flex;
     flex-direction: row;
