@@ -75,6 +75,7 @@ header h3 {
     justify-content: center;
     gap: 12rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .navigation ul {
